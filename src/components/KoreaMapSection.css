@@ -1,0 +1,51 @@
+.map-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.map-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.marker {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(49, 158, 49);
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.marker::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 2px;
+  height: 10px;
+  background: greenyellow;
+  transform: translateX(-50%);
+}
+
+.highlight-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #0077cc;
+  margin-bottom: 1rem;
+
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.MapSectionbar {
+  border-bottom: 4px solid #0077cc;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}

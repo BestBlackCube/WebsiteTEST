@@ -1,0 +1,30 @@
+.home-container {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 3rem 1rem;
+}
+
+.map-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.world-map {
+  width: 600px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* 마커 스타일 */
+.marker {
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  transform: translate(-50%, -100%);
+  white-space: nowrap;
+}

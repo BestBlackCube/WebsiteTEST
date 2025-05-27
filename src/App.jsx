@@ -1,0 +1,31 @@
+import { Routes, Route } from "react-router-dom";
+import React from "react";
+
+import Navbar from "./components/Navbar.jsx";
+
+import Home from "./pages/Home.jsx";
+
+import ChinaPage from './pages/ChinaPage.jsx';
+import KoreaPage from './pages/KoreaPage.jsx';
+import JapanPage from './pages/JapanPage.jsx';
+
+import MapSection from "./components/MapSection.jsx";
+
+import "./App.css";
+
+function App() {
+  
+  return (
+    <div className = "app-container">
+
+      <Routes>
+        <Route path="/" element={<><Navbar /><MapSection /><Home /></>} />
+        <Route path="/china" element={<ChinaPage />} />
+        <Route path="/korea" element={<KoreaPage />} />
+        <Route path="/japan" element={<JapanPage />} />
+      </Routes>
+    </div>
+  );
+}
+
+export default App;

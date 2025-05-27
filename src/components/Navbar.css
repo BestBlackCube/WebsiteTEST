@@ -1,0 +1,18 @@
+.navbar {
+  background-color: white; /* 배경 흰색 */
+  border-bottom: 3px solid #ccc; /* 아래 줄 */
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* 약간의 그림자 */
+  position: sticky; /* 상단 고정 */
+  top: 0;
+  z-index: 100;
+}
+
+.search-input {
+  padding: 0.5rem 1rem;
+  width: 100%;
+  max-width: 800px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
