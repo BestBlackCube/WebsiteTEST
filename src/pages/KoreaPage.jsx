@@ -1,3 +1,6 @@
+import React from "react";
+
+
 import KoreaIamge from "../assets/Korea.png";
 import KoreaDestinationCard from "../components/KoreaDestinationCard";
 import KoreaMapSection from "../components/KoreaMapSection";
@@ -52,7 +55,8 @@ function KoreaPage() {
     </div>
     
   );
-}const styles = {
+}
+const styles = {
   page: {
     padding: "2rem",
     textAlign: "center",

@@ -2,14 +2,14 @@ import japanIamge from "../assets/japan.png";
 import JapanDestinationCard from "../components/JapanDestinationCard";
 import JapanMapSection from "../components/JapanMapSection";
 
-import dokyo from "../assets/dokyo.png";
+import tokyo from "../assets/dokyo.png";
 import kyoto from "../assets/kyoto.png";
 import osaka from "../assets/osaka.png";
-import satporo from "../assets/satporo.png";
+import sapporo from "../assets/satporo.png";
 
 const japanDestinations = [
   {
-    image: dokyo,
+    image: tokyo,
     title: "도쿄",
     description: "역사와 현대가 공존하는 일본의 수도. 도쿄타워, 아사쿠사 절, 시부야 교차로 등 다양한 볼거리가 있습니다.",
   },
@@ -24,14 +24,14 @@ const japanDestinations = [
     description: "다채로운 먹거리와 활기찬 분위기의 도시. 도톤보리, 오사카성, 유니버설 스튜디오 등 즐길 거리가 풍부합니다.",
   },
   {
-    image: satporo,
+    image: sapporo,
     title: "삿포로",
     description: "자연과 축제가 어우러진 북쪽의 중심 도시. 삿포로 눈 축제, 오도리 공원, 삿포로 맥주 박물관 등이 유명합니다.",
   },
 ];
 function JapanPage() {
   return (
-    <div calssName="japan-page" style = {{padding: "2rem", textAlign: "center"}}>
+    <div calssName="Japan-page" style = {{padding: "2rem", textAlign: "center"}}>
       <h1>일본 소개 페이지</h1>
       <JapanMapSection />
       <h1 style={{ fontSize: "2.5rem", marginBottom: "0.5rem", borderBottom: "3px solid #333", display: "inline-block", paddingBottom: "0.5rem" }}>
