@@ -1,7 +1,3 @@
-import React from "react";
-
-
-import KoreaIamge from "../assets/Korea.png";
 import KoreaDestinationCard from "../components/KoreaDestinationCard";
 import KoreaMapSection from "../components/KoreaMapSection";
 

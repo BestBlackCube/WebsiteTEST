@@ -1,4 +1,3 @@
-import japanIamge from "../assets/japan.png";
 import JapanDestinationCard from "../components/JapanDestinationCard";
 import JapanMapSection from "../components/JapanMapSection";
 

@@ -1,4 +1,3 @@
-import ChinaIamge from "../assets/China.png";
 import ChinaDestinationCard from "../components/ChinaDestinationCard";
 import ChinaMapSection from "../components/ChinaMapSection";
 
