@@ -1,5 +1,5 @@
 import React from 'react';
-import mapImage from '../assets/China.png';
+import mapImage from '../assets/china.png';
 import { useNavigate } from 'react-router-dom';
 
 import './ChinaMapSection.css';
