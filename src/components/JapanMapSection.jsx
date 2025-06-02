@@ -1,5 +1,5 @@
 import React from 'react';
-import mapImage from '../assets/Japan.png';
+import mapImage from '../assets/japan.png';
 import { useNavigate } from 'react-router-dom';
 
 import './JapanMapSection.css';
